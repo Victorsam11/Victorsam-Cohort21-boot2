@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grid assignment</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            *{
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .col-5{
+                height: 50vh;
+                width: 80% auto;
+            } 
+            
+            .col-12{
+                height: 10vh;
+                
+            }
+            .col-7, .col-5, .col-12, .col-6{
+                border: 4px solid black;
+                text-align: center;
+                line-height: 20px;
+            }
+            
+            .like{
+                height:40vh ;
+            }
+            .col-6{
+                height: 39vh;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container bg-dark my-5">
+            <div class="row">
+                <div class="col-12 bg-success pt-2 "> 
+                    HEADER
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 bg-primary  ">
+                    SIDEBAR
+                </div>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-12 bg-warning pt-3 "> SUB-HEADER </div>
+                    </div>
+                     
+                        <div class="row">
+                            <div class="col-6 bg-success ">CONTENT-1</div>
+                            <div class="col-6 bg-info">CONTENT-2</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="bg-danger col-12 footer pt-3">
+                        FOOTER
+                    </div>
+                </div>
+        </div>
+
+        
+           
+            
+            
+       
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
